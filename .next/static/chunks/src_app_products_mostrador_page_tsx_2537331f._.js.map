@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/salas/Documentos/SEXTO/sidebar/src/app/products/mostrador/page.tsx"],"sourcesContent":["\n'use client';\n\nimport { Contador } from \"@/app/components/contador\";\nimport { count } from \"console\";\nimport { useState } from \"react\";\n\nexport default function MostradorPage() {\n\n    const [count,setCount]= useState(0);\n    return (\n      <div className=\"flex flex-col items-center justify-center w-full h-screen\">\n        <span>Productos en el carrito</span>     \n        \n      </div>\n    );\n  }"],"names":[],"mappings":";;;;AAKA;;;AAJA;;AAMe,SAAS;;IAEpB,MAAM,CAAC,OAAM,SAAS,GAAE,CAAA,GAAA,6JAAA,CAAA,WAAQ,AAAD,EAAE;IACjC,qBACE,6LAAC;QAAI,WAAU;kBACb,cAAA,6LAAC;sBAAK;;;;;;;;;;;AAIZ;GATsB;KAAA","debugId":null}}]
+}
